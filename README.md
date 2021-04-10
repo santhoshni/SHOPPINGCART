@@ -1,1 +1,2 @@
 # shoppingcart
+Initial application setup
