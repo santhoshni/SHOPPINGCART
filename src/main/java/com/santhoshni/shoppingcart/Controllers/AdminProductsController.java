@@ -93,7 +93,8 @@ public class AdminProductsController {
         boolean fileOK = false;
         byte[] bytes = file.getBytes();
         String filename = file.getOriginalFilename();
-        Path path = Paths.get("Y:/LC101-Java/LiftOff/course+files-udem/course files/images/src/main/resources/static/media/" + filename);
+        //Path path = Paths.get("Y:/LC101-Java/LiftOff/course+files-udem/course files/images/src/main/resources/static/media/" + filename);
+        Path path = Paths.get("src/main/resources/static/media/" + filename);
         if (filename.endsWith("jpg") || filename.endsWith("png") ) {
             fileOK = true;
         }
