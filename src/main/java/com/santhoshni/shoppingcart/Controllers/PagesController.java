@@ -26,10 +26,10 @@ public class PagesController {
         return "page";
     }
 
-//     // @GetMapping("/login")
-//     // public String login() {
-//     //     return "login";
-//     // }
+      @GetMapping("/login")
+      public String login() {
+          return "login";
+      }
 
     @GetMapping("/{slug}")
     public String page(@PathVariable String slug, Model model) {

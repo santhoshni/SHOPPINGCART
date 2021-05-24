@@ -107,7 +107,7 @@ public class CartController {
     @GetMapping("/clear")
     public String clear(HttpSession session, HttpServletRequest httpServletRequest) {
 
-        session.removeAttribute("cart");
+        session.removeAttribute("");
 
         String refererLink = httpServletRequest.getHeader("referer");
 
