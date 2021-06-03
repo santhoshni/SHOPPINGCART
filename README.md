@@ -1,2 +1,1 @@
-# shoppingcart
-Initial application setup
+# shoppingcarts
